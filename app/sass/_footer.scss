@@ -1,0 +1,158 @@
+//////////footer///////////////////////////////////////
+.footer {
+  background-color: #222;
+  color: #fff;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &__wrap {
+    width: 100%;
+    padding: 90px 0 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__box {
+    width: 300px;
+    font-size: 16px;
+    //background-color: #ccc;
+    input {
+      //display: block;
+
+
+    }
+    &-h5 {
+      color: #fff;
+      font-size: 16px;
+      &-span {
+        color: #c89e61;
+      }
+
+    }
+    &-form {
+      display: flex;
+      &>input {
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+      }
+
+
+    }
+  }
+
+
+  .footer__box-btn  {
+
+    width: 20%;
+    font-weight: 300;
+    //height: 70px;
+    background-color: transparent;
+    padding: 10px 20px;
+    //margin-left: 5px;
+    //background-color: #c89e61;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    font-size: 16px;
+    color: #fff;
+  }
+  &__hr {
+    width: 100%;
+    border-color: #919191;
+
+  }
+  &__social-foot {
+    margin: 35px auto;
+    font-size: 16px;
+    color: #b3b8c2;
+  }
+}
+
+.social {
+  text-align: center;
+  //margin: 50px 0 40px;
+  &__container {
+    display: inline-block;
+    background-color: #222;
+    border: 1px solid #919191;
+    //border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    font-size: 19px;
+    color: #fff;
+    margin-left: 50px;
+    line-height: 28px;
+    text-align: center;
+    transition: color .5s ease;
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+
+    }
+  }}
+
+
+
+
+
+//
+//.footer {
+//  background-color: #fff;
+//  padding: 55px 0 40px;
+//
+//  .container {
+//    display: flex;
+//    flex-wrap: wrap;
+//    //justify-content: center;
+//    flex-direction: column;
+//    align-items: center;
+//    position: relative;
+//    & > p {
+//      color: #aab2bd;
+//      font-size: 16px;
+//
+//    }
+//
+//
+//  }
+//  &__bgc {
+//    //content: "PHANTOM";
+//    color: #fff;
+//    position: absolute;
+//    font-size: 192px;
+//    font-weight: 900;
+//    text-shadow: 0 0px 72px #DDC;
+//    top: 30%;
+//
+//  }
+//
+//}
+//.social {
+//  margin: 230px 0;
+//  z-index: 20;
+//  text-align: center;
+//}
+//
+//.footer__logo {
+//  font-size: 24px;
+//  font-weight: 800;
+//  padding-bottom: 35px;
+//  position: relative;
+//  &-link {
+//    color: #000;
+//  }
+//  &-img {
+//    position: absolute;
+//    top: -10px;
+//  }
+//}

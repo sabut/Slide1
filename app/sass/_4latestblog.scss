@@ -1,0 +1,45 @@
+.latestblog {
+
+
+
+//////////latestblog carusel//////////
+  .brand-carusel{
+    position: relative;
+    .slide-carusel{
+      width: calc(100% - 130px);
+      margin: auto;
+    }
+    .item-carusel{
+      //padding: 0 17px;
+    }
+//////////arrow < & > Indoor Furniture SLIDER
+    .owl-nav{
+      margin: 0;
+      height: 100%;
+      position: absolute;
+      left: -65px;
+      right: -65px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: space-between;
+      [class*='owl-'] {
+        display: flex;
+        width: 30px;
+        color: #FFF;
+        font-size: 14px;
+        margin: 0;
+        padding: 14px 7px;
+        background: #2a2a2a;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 0;
+        &:hover {
+          background-color: #d58e32;
+
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,97 @@
+.guestRoom {
+
+//LEFT BLOCK of guestRoom
+  &__block-lt {
+    background-color: #505050;
+    border: 25px solid #6a6a6a;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding: 25px;
+  }
+  &__sofa {
+    margin-top: 145px;
+    font-size: 36px;
+  }
+  &__span {
+    font-size: 60px;
+  }
+  &__sale {
+    display: inline-block;
+    width: 150px;
+    font-size: 50px;
+    border: 5px solid #fff;
+    padding: 20px 8px;
+    box-sizing: border-box;
+  }
+//RIGHT BLOCK of guestRoom
+  &__block-rt {
+  }
+  &__office {
+    &-h4 {}
+  }
+
+  .guestRoom__office {
+    background-color: #e8edf7;
+    text-transform: uppercase;
+    text-align: center;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    //flex-direction: column;
+
+
+    .guestRoom__office-h4 {
+      font-size: 30px;
+      padding-top: 50px;
+
+
+      .guestRoom__office-span {
+        font-weight: 700;
+
+      }
+    }
+
+    .guestRoom__office-text {
+      font-size: 18px;
+      padding: 14px 0 17px;
+
+
+    }
+
+    .guestRoom__office-price {
+      font-size: 36px;
+      padding-bottom: 50px;
+      color: #d58e32;
+      font-weight: 700;
+
+    }
+  }
+
+
+  .guestRoom__special {
+    background-color: #fbf3f7;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 70px 25px;
+    margin-top: 30px;
+
+
+    .guestRoom__office-special-h4 {
+      font-size: 24px;
+      color: #d58e32;
+
+
+      .guestRoom__special-span {
+        font-weight: 700;
+
+      }
+    }
+
+    .guestRoom__special-text {
+      font-size: 18px;
+      padding-top: 13px;
+
+    }
+  }
+}
